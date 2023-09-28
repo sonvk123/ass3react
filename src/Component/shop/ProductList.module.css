@@ -1,0 +1,25 @@
+.item {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+  word-wrap: break-word; /* Cho phép từ bị cắt ngang thành nhiều dòng */
+  text-align: center; /* Căn giữa nội dung của p */
+}
+.item img {
+  width: 200px;
+  height: 200px;
+}
+
+.item h1 {
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.item p {
+  color:rgba(0, 0, 0, 0.451);
+  font-size: 16px;
+  
+}

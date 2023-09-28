@@ -1,0 +1,121 @@
+.shop {
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.077);
+  padding: 50px;
+  margin-bottom: 30px;
+}
+.name h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.name p {
+  color: rgba(0, 0, 0, 0.382);
+}
+.product {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+.product .button h1:first-child {
+  padding: 0;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+}
+.button h1:first-child {
+  margin-bottom: 12px;
+  color: black;
+  background-color: inherit;
+}
+.button h1:nth-child(2) {
+  margin-bottom: 12px;
+  color: white;
+  background-color: black;
+}
+.button h1 {
+  margin: 0;
+  padding: 12px;
+  padding-left: 24px;
+  display: block;
+  font-size: 20px;
+  background-color: rgba(54, 42, 42, 0.466);
+  color: black;
+  justify-content: start;
+}
+.button button {
+  color: rgba(54, 42, 42, 0.466);
+  font-style: italic;
+  border: none;
+  background-color: inherit;
+  display: inline-block;
+  text-align: left;
+}
+.button button:hover,
+.button button.active {
+  color: rgb(255, 162, 0);
+}
+
+.div_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.div_1 input {
+  width: 300px;
+  height: 50px;
+}
+.div_1 select {
+  border: 1px solid black;
+  width: 150px;
+  height: 25px;
+}
+.productList {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.productList a {
+  text-decoration: none;
+  color: black;
+}
+.productList a img:hover {
+  opacity: 0.5;
+}
+
+.last {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+.last div {
+  display: flex;
+  justify-content: right;
+}
+.last div button {
+  width: 40px;
+  height: 40px;
+}
+.last div p {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  color: aqua;
+  justify-content: center;
+  align-items: center;
+}
+.last p {
+  display: flex;
+  justify-content: right;
+}

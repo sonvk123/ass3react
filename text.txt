@@ -1,0 +1,5 @@
+  "homepage": "https://sonvk123.github.io/ass3react",
+
+
+      "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",

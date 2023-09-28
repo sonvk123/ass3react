@@ -1,0 +1,102 @@
+.checkout {
+  padding: 0 10%;
+  font-style: italic;
+}
+/*  */
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  background-color: rgba(66, 61, 61, 0.193);
+  padding: 50px;
+  margin-bottom: 30px;
+}
+.name h1 {
+  font-weight: 400;
+}
+.name h1:nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
+}
+.name p {
+  display: inline;
+  color: rgba(66, 61, 61, 0.608);
+  font-weight: 500;
+}
+
+/*  */
+.billing {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 24px 0;
+}
+/*  */
+
+.bill {
+  display: flex;
+  gap: 40px;
+  color: rgba(0, 0, 0, 0.874);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+label {
+  margin: 20px 0 10px 0;
+}
+input {
+  padding-left: 24px;
+  height: 40px;
+}
+.buttom_order {
+  width: 150px;
+  height: 40px;
+  margin-top: 24px;
+  margin-bottom: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.893);
+  font-style: italic;
+}
+
+/*  */
+.order {
+  flex: 1;
+  background-color: rgba(66, 61, 61, 0.193);
+  padding: 50px;
+  align-self: flex-start;
+}
+.order h1 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.product {
+  display: flex;
+  gap: 16px;
+  justify-self: center;
+}
+.product h5 {
+  flex: 10;
+  font-size: 18px;
+}
+.product p {
+  flex: 9;
+  color: rgba(0, 0, 0, 0.675);
+}
+.total {
+  display: flex;
+  gap: 16px;
+  justify-self: center;
+}
+.total h5 {
+  flex: 10;
+  font-size: 18px;
+}
+.total p {
+  flex: 9;
+  color: black;
+}

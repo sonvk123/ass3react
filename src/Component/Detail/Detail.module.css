@@ -1,0 +1,168 @@
+.detail {
+  padding: 0 10%;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.detail button {
+  font-style: italic;
+  color: white;
+  background-color: rgba(46, 44, 43, 0.903);
+}
+
+/*  */
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.077);
+  padding: 50px;
+  margin-bottom: 30px;
+}
+.name h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.name p {
+  color: rgba(0, 0, 0, 0.382);
+}
+/* vùng trên cùng */
+.div_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.div_1 button {
+  width: 200px;
+  height: 36px;
+}
+.div_1 input {
+  width: 100px;
+  height: 36px;
+}
+.div_1_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.div_1_1 img {
+  width: 100px;
+  height: 100px;
+}
+.div_1_2 img {
+  width: 400px;
+  height: 450px;
+}
+.div_1_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.div_1_3 h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.div_1_3 p {
+  color: rgba(0, 0, 0, 0.538);
+}
+.div_1_3 h4 {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.538);
+}
+.div_1_3 h6 {
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+.div_1_3 span {
+  color: rgba(0, 0, 0, 0.538);
+}
+
+.quantity_up_down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #757070;
+}
+
+.quantity_up_down p:first-child {
+  margin: 0;
+  margin-left: 24px;
+  margin-right: 50px;
+}
+.quantity_up_down img {
+  width: 16px;
+  height: 16px;
+}
+.quantity_up_down .down,
+.quantity_up_down .up {
+  border: none;
+  background-color: transparent;
+  color: black;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+}
+.quantity {
+  margin: 0;
+  font-style: normal;
+}
+
+/* vùng ở giữa */
+
+.div_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.div_2 .description {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.div_2 div p:first-child {
+  margin-bottom: 12px;
+}
+
+.div_2 div p {
+  color: rgba(0, 0, 0, 0.538);
+  padding: 0;
+  margin: 0;
+}
+
+/* vùng cuối cùng */
+.div_3 {
+}
+.div_3 div {
+  display: flex;
+  gap: 24px;
+}
+
+.div_3 div img {
+  width: 260px;
+  height: 260px;
+}
+
+.div_3 div p {
+  word-wrap: break-word; /* Cho phép từ bị cắt ngang thành nhiều dòng */
+  text-align: center; /* Căn giữa nội dung của p */
+}
+
+.div_3 div a {
+  text-decoration: none;
+  width: 260px;
+}
+
+.div_3_name {
+  color: black;
+}
+.div_3_price {
+  color: rgba(0, 0, 0, 0.451);
+}

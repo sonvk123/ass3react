@@ -1,0 +1,43 @@
+.banner {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-style: italic;
+}
+
+.text h3 {
+  color: rgba(100, 107, 112, 0.651);
+  font-weight: 300;
+  font-size: 1rem;
+}
+.text h1 {
+  /* color:rgba(100, 107, 112, 0.651); */
+  font-weight: 500;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.button {
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 200;
+  color: white;
+  background-color: rgba(43, 33, 19, 0.815);
+  width: 250px;
+  height: 50px;
+}
+.button:hover,
+.button:active {
+  background-color: rgba(19, 210, 35, 0.815);
+}

@@ -1,0 +1,22 @@
+.item {
+  justify-content: center;
+  word-wrap: break-word; 
+  text-align: center; 
+}
+
+.item img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.item h1 {
+  font-size: 20px;
+}
+.item p {
+  font-size: 20px;
+}
+.item img {
+  height: 250px;
+  width: 230px;
+  object-fit: cover;
+}
